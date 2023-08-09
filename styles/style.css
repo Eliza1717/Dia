@@ -19,8 +19,11 @@ blockquote {
   padding: 0;
 }
 
+html {
+  block-size: 100%;
+}
+
 body {
-  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -83,11 +86,14 @@ ol {
 }
 
 .hire_us {
-  margin-left: 45px;
+  margin-left: 40px;
   position: relative;
   z-index: 4;
   grid-column-start: 7;
   grid-column-end: 8;
+  text-decoration: none;
+  border-bottom: solid 4px #fcc304;
+  width: 64px;
 }
 
 .menu__title {
@@ -101,7 +107,7 @@ ol {
 
 .blue__rectangle {
   position: relative;
-  top: -100px;
+  top: -200px;
   left: 338px;
   z-index: 1;
   min-width: 1128px;
@@ -118,7 +124,7 @@ ol {
 
 .blue__rectangle__2 {
   position: relative;
-  top: -280px;
+  top: -420px;
   left: 610px;
   z-index: 2;
   min-width: 1128px;
@@ -149,4 +155,50 @@ ol {
     ),
     #56ccf2;
   transform: rotate(-65deg);
+}
+
+.title__global {
+  margin-top: 85px;
+  display: flex;
+  position: relative;
+  z-index: 4;
+  display: flex;
+  color: #fff;
+  font-family: Muli;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%;
+}
+
+.content__global {
+  color: #fff;
+  font-family: Muli;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.button__global {
+  width: 226px;
+  height: 56px;
+  border-radius: 64px;
+  background: #fff;
+}
+
+.button__global__text {
+  color: var(--text-100, #253757);
+  text-align: center;
+  font-family: Muli;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+}
+
+.img__global {
+  position: relative;
+  z-index: 4;
 }
