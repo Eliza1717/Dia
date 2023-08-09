@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.background__section {
+  width: 1029px;
+  height: 848px;
+  background: var(--main, #56ccf2);
+}
+
+.menu__section {
+  display: grid;
+  grid-template-columns: repeat(7, 100px);
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 48px;
+  padding-left: 127px;
+  color: #fff;
+  font-family: Muli;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 150%; /* 24px */
+}
+
+.dia {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.home {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.about_us {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.services {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.work {
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.contact_us {
+  position: relative;
+  z-index: 4;
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+
+.hire_us {
+  margin-left: 45px;
+  position: relative;
+  z-index: 4;
+  grid-column-start: 7;
+  grid-column-end: 8;
+}
+
+.menu__title {
+  color: #fff;
+  font-family: Muli;
+  font-weight: 700;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 100%;
+}
+
+.blue__rectangle {
+  position: relative;
+  top: -100px;
+  left: 338px;
+  z-index: 1;
+  min-width: 1128px;
+  height: 298.234px;
+  border-radius: 500px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #56ccf2;
+  transform: rotate(-65deg);
+}
+
+.blue__rectangle__2 {
+  position: relative;
+  top: -280px;
+  left: 610px;
+  z-index: 2;
+  min-width: 1128px;
+  height: 298.234px;
+  border-radius: 500px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #56ccf2;
+  transform: rotate(-65deg);
+}
+
+.blue__rectangle__3 {
+  position: relative;
+  bottom: 500px;
+  left: 860px;
+  z-index: 3;
+  flex-shrink: 0;
+  min-width: 956.925px;
+  height: 53.018px;
+  border-radius: 500px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #56ccf2;
+  transform: rotate(-65deg);
+}
